@@ -1,0 +1,90 @@
+/* Set Your Own Margin & Padding */
+/*primary header*/
+body{
+	background-color: #f5faed;
+	
+}
+h1{
+	font-family: 'Lato', sans-serif;
+	color: #D1BF38;
+}
+h2, h3 {
+	margin: 0;
+	color: #871630;
+}
+
+p{
+	color: #42;
+}
+
+/* Layout for Style Tile*/
+section {
+	margin: 20px 0;
+}
+
+/*Links*/
+a:link,
+a:visited{
+	border-bottom: double black 1px;
+}
+
+img{
+	height: 30%;
+	width: 30%;
+}
+
+.color-1,
+.color-2,
+.color-3,
+.color-4,
+.color-5,
+.pattern-1,
+.pattern-2,
+.pattern-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 80px;
+	width: 50px;
+}
+
+/*color palette*/
+.color-1 {
+	background: #871630;
+}
+
+.color-2{
+	background: #f5faed;
+}
+
+.color-3{
+	background: #424242;
+}
+
+.color-4{
+	background: #D1BF38;
+}
+
+.color-5{
+	background: #611B00;
+}
+
+.pattern-1{
+	background-color: #871630;
+	background-image: url(http://www.transparenttextures.com/patterns/brushed-alum.png);
+
+}
+
+.pattern-2{
+	background-color: #424242;
+	background-image: url(http://www.transparenttextures.com/patterns/brushed-alum.png);
+}
+
+.pattern-3{
+	background-image: url(http://www.transparenttextures.com/patterns/brushed-alum.png);	
+}
+
+/* Show Grid */
+.showgrid {
+	background: url("../img/grid-bg.png") repeat-y;
+}
